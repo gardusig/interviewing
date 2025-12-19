@@ -1,4 +1,4 @@
-## ⚡ High-Frequency Trading
+## Beyond: High-Frequency Trading
 
 ### Accelerating Onboarding in a Large C++ Codebase
 
@@ -83,3 +83,31 @@ Design and operate a trading bot that could safely send and manage hundreds of o
 - Established a solid production foundation that allowed the team to iterate on strategy rather than firefighting infrastructure issues.
 
 ---
+
+### Implementing FIX Protocol Integration and Custom Message Handling
+
+**Context**  
+As part of integrating directly with the exchange, I had to work with the FIX protocol for the first time. Documentation was dense, tooling was limited, and we also needed to bridge communication between the trading engine and a front-end system via WebSockets.
+
+**Goal**  
+Correctly implement FIX-based communication while extending standard messages to support internal strategy parameters and real-time front-end visibility.
+
+**Approach**  
+- Studied FIX protocol fundamentals in depth, including:
+  - Message framing and sequencing  
+  - Tag-based encoding  
+  - Session-level vs application-level messages  
+- Implemented FIX message parsing and serialization in C++, handling:
+  - Custom tags beyond the standard FIX specification  
+  - Non-standard separators required by the exchange  
+- Designed a translation layer between FIX messages and internal domain models to isolate protocol complexity from strategy logic.
+- Built WebSocket-based communication with the front end, allowing:
+  - Real-time order and execution updates  
+  - Injection of additional parameters for monitoring and experimentation  
+- Validated correctness through extensive testing using recorded exchange messages and simulated scenarios.
+
+**Outcome**  
+- Successfully integrated with the exchange using FIX, including support for custom extensions.
+- Enabled richer strategy control and observability without polluting core trading logic.
+- Reduced operational risk by isolating protocol-specific complexity.
+- Gained deep, hands-on experience with low-level financial protocols critical to HFT systems.
