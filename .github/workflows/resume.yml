@@ -27,7 +27,7 @@ jobs:
 
       - name: Move PDF into publishing folder
         run: |
-          mv resume/resume.pdf publish-pages/
+          mv resume.pdf publish-pages/
 
       - name: Upload to pages
         uses: actions/upload-pages-artifact@v4
