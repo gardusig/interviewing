@@ -5,6 +5,17 @@ Each story highlights ownership, technical judgment, collaboration, and impact.
 
 ## 📂 Companies
 
+### AWS: SDK Reliability & Regional Resilience
+
+- [Stabilizing a High-Risk Public SDK Release with Proactive Dependency Alignment](./stories/2025-aws-connect.md#stabilizing-a-high-risk-public-sdk-release-with-proactive-dependency-alignment)
+- [Improving Multi-Region Deployment Safety for Amazon Connect](./stories/2025-aws-connect.md#improving-multi-region-deployment-safety-for-amazon-connect)
+
+### AWS: Game-Based Learning & Skill Builder Platform
+
+- [Unblocking Large-Scale Catalog Classification Under Cross-Team Dependencies](./stories/2024-aws-gbl.md#unblocking-large-scale-catalog-classification-under-cross-team-dependencies)
+- [Delivering a New Public User Profile Page as a Full-Stack Owner](./stories/2024-aws-gbl.md#delivering-a-new-public-user-profile-page-as-a-full-stack-owner)
+- [Enabling LinkedIn Sharing with Reliable Achievement Previews](./stories/2024-aws-gbl.md#enabling-linkedin-sharing-with-reliable-achievement-previews)
+
 ### Amazon: Fulfillment by Amazon (FBA)
 
 - [Capacity Planning and Scaling for Black Friday Traffic](./stories/2021-amazon-fba.md#capacity-planning-and-scaling-for-black-friday-traffic)
