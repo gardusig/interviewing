@@ -6,7 +6,7 @@ This repository is a personal knowledge base used to prepare for technical and b
 
 ## Repository Overview
 
-- `resume/`: kept close to stories to ensure alignment between written experience and spoken narratives
+- `resume/`: professional background, skills, and accomplishments
 - `scripts/`: utilities used to keep documentation up to date
 - `stories/`: company interview stories, written in a consistent format
 
