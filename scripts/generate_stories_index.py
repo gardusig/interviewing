@@ -19,7 +19,7 @@ lines = [
     "## 📂 Companies\n\n"
 ]
 
-for filename in sorted(os.listdir(COMPANIES_DIR)):
+for filename in reversed(sorted(os.listdir(COMPANIES_DIR))):
     if not filename.endswith(".md"):
         continue
 
@@ -45,4 +45,4 @@ for filename in sorted(os.listdir(COMPANIES_DIR)):
 with open(README_PATH, "w", encoding="utf-8") as f:
     f.writelines(lines)
 
-print("README.md generated successfully.")
+print(f"{README_PATH} generated successfully.")
