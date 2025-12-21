@@ -3,9 +3,11 @@
 ### Unblocking Large-Scale Catalog Classification Under Cross-Team Dependencies
 
 **Context**
+
 Ahead of launching a new internal catalog, **100+ game-based learning courses** needed to be manually categorized with specific labels. The final classification depended on input from a product owner in a neighboring team, and repeated delays put the launch timeline at risk.
 
-**Goal**  
+**Goal**
+
 Ensure catalog data was ready on time despite a high-risk, manual dependency on a non-engineering stakeholder.
 
 **Approach**  
