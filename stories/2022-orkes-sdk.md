@@ -84,7 +84,7 @@ Maximize throughput for both **I/O- and CPU-heavy workflows** while preserving c
 - During testing, detected anomalous behavior: queue size remained constant despite active workers.
 - Investigated beyond the SDK layer and identified a **server-side bug**: missing acknowledgment logic caused batch-polled tasks to be requeued indefinitely.
 - Validated the root cause with the backend team.
-- Contributed a fix **upstream to Netflix OSS**, where the behavior originated.
+- Contributed wiht a fix to **Netflix OSS**, where the behavior originated.
 
 **Outcome**  
 - Team aligned on **multiprocessing + batch polling**, backed by benchmark data.
